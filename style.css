@@ -384,7 +384,15 @@ nav {
 }
 
 .modal__language--img {
-  width: 100%;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+#landing-page {
+  min-height: 100vh;
+  position: relative;
 }
 
 .modal__contact {
